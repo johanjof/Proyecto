@@ -1,0 +1,48 @@
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+form{
+    border: 1px solid #ccc;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 5%;
+}
+label{
+    width: 100%;
+    display: block;
+}
+input{
+    font-size: 13px;
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+input[type=text],input[type=password]{
+    padding-left: 0px;
+}
+input:focus{
+    border-bottom: 1px solid #1668cd;
+    transition: 0.3s;
+}
+input[type=submit]{
+    margin-bottom: 0px;
+    background-color: #1668cd;
+    color: #fff;
+    border: none;
+}
+input[type=submit]:hover{
+    background-color: #4a88f4;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group > h2{
+    text-align: center;
+}
